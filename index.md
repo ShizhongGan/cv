@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: Shizhong Gan
+title: 
 email:
   url: gan_shizhong@163.com
   text: gan_shizhong@163.com
@@ -38,7 +38,7 @@ NTU, Singapore
 
 - _Research Assistant_  
 
-### **天津商业大学** `2012.9 - 2016.5`
+### **天津商业大学** `2012.9 - 2016.6`
 
 - 数学与应用数学 理学学士
 
