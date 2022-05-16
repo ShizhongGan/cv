@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: 
+title: Shizhong Gan
 email:
   url: gan_shizhong@163.com
   text: gan_shizhong@163.com
