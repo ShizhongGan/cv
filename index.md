@@ -1,5 +1,5 @@
 ---
-layout: resume
+layout: cv
 title: Shizhong Gan
 email:
   url: gan_shizhong@163.com
@@ -47,16 +47,15 @@ NTU, Singapore
 ### **北京光环新网科技股份有限公司** `2019.6 -`
 
 _云计算研发工程师_<br>
-主要负责基于Opnstack架构的公司云平台的代码维护、解决客户云资源使用过程中存在的问题；以及自动化运维、web开发、容器等技术的应用与研发。
 
-#### [云平台公网IP检索web开发]() `2022.1-2022.2`
-
-- 基于django开发的IP搜索web应用，基于pymysql实现多数据库处理，并通过docker完成部署。
-- Environment：django+pymysql+mysql+docker
+- 主要负责基于Opnstack架构的公司云平台的代码维护，解决系统漏扫存在的安全问题；
+- 解决客户在云资源使用过程中的疑惑、解答云主机、网络配置、组网等问题，及时响应工信部对目标云主机的调查，包括：挖矿、网络攻击等问题；
+- 实现批量化文件配置、推进部署实施、提升运维效率，包括：私有云的部署、日志监控工具的部署。
+- 基于django框架完成后端开发任务，主要包括：云平台公网IP信息检索功能、结合celery模块优化公司邮箱系统群发功能。
  
 #### [集群状态与日志监控预警平台构建与应用]() `2021.6-2021.12`
 
-- 采用ELK搜集日志信息，通过Zabbix监控预警，并通过Ansible完成集群化安装部署，针对集群、云主机、私有云等进行定制化日志监控。
+- 采用ELK搜集日志信息，通过Zabbix监控预警，并通过Ansible完成集群化安装部署，针对集群、云主机、私有云等进行日志监控。
 - Environment：ELK+Zabbix+MySQL+Ansible
 
 #### [AWS云平台资源批量自动化取证]() `2021.3 - 2021.6`
@@ -73,24 +72,6 @@ _云计算研发工程师_<br>
 - 为缓解公司邮箱服务器压力、提高邮箱并发能力，避免服务器存储空间浪费。采用celery任务调度框架，Redis作为消息队列，MySQL作为数据库存储，基于django架构和SMTP协议完成新邮箱web客户端开发，最后采用docker部署在公司的云平台上，并添加多联系人文本识别、状态查询等功能，便于销售使用。
 - Environment：分布式+celery+Redis+MySQL+Docker+Boostrap
 
-#### [SDN架构、VR算法与应用开发等自研项目]()
-
-- Open vSwitch、Mininet、OpenDayLight等安装部署，学习相关概念和命令操作，完成几个云主机间流表创建删除、通信模拟测试等。
-- 根据VR眼镜3D视觉机制，利用opencv完成SIFT特征点匹配、RANSAC算法拼接、中心视图裁剪等算法，获得能够3D成像的左右眼视图。采用django开发算法的API接口，基于Flutter完成Android应用开发，实现手机拍摄照片和算法API调用，完成左右视图处理并在手机上显示，通过VR眼镜能够初步观赏到3D效果。
-- Environment： SDN+opencv+Flutter+django
-
-### **泰康集团** `2019.3 - 2019.4`
-_NLP语音算法实习生_<br>
-基于注意力机制的LSTM的保单审核评级分类算法demo 准确率94.5%
-
-### **南洋理工大学计算机工程学院[交流]** `2017.7 - 2018.12`
-
-_Research Assistant_<br>
-- 海量数据处理，新加坡 Open-street-map 的百万条数据处理，企业的 GPS 海量数据处理，基于概率矩阵分解的缺失值插补；
-- 在 Linux 系统与 Docker 容器平台下，实现基于隐马尔可夫模型的 GPS 数据与地图匹配
-- 基于 LSTM 深度学习网络，完成交通流量预测分析；
-- 基于多种机器学习分类算法完成交通工具特征识别。
-- 基于 GAN 网络的数据生成、分布学习。
 
 ## Publications
 
@@ -109,15 +90,10 @@ _Research Assistant_<br>
 ## Skills
 
 - 擅长语言：python， matlab<br>
-- 工作中主要使用Python：Django web开发；基于Paramiko模块的批量处理服务器资源；基于Celery分布式任务调度；Tensorflow, Pytorch深度学习库; Nampy, Pandas, Spicy等数值矩阵计算;基于Request, Selenium, beautifulsoup网络爬虫。<br>
-- 熟悉Linux系统命令, 计算机网络<br>
-- 掌握Ansible, Elastic Stack, Zabbix, gitlab, docker等自动化运维、日志监控等相关工具的使用和集群化部署<br>
+- 工作中主要使用Python：Django web开发；基于Paramiko模块的批量处理服务器资源；基于Celery分布式任务调度<br>
+- 熟悉Linux系统命令<br>
+- 了解Ansible, Elastic Stack, Zabbix, gitlab, docker等自动化工具的使用<br>
 - 熟悉Openstack开发与部署，后端和前端的代码维护<br>
-
-## Service
-
-IEEE ACCESS 邀请审稿人 `2019` <br>
-
 <!-- ### Footer
 
 Last updated: May 2022 -->
