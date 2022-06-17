@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: resume
 title: Shizhong Gan
 email:
   url: gan_shizhong@163.com
