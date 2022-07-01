@@ -109,7 +109,7 @@ _Research Assistant_<br>
 ## Skills
 
 - 擅长语言：python， matlab<br>
-- 工作中主要使用Python：Django web开发；基于Paramiko模块的批量处理服务器资源；基于Celery分布式任务调度；Tensorflow, Pytorch深度学习库; Nampy, Pandas, Spicy等数值矩阵计算;基于Request, Selenium, beautifulsoup网络爬虫。<br>
+- 工作中主要使用Python：Django web开发；基于Paramiko模块的批量处理服务器资源；基于Celery分布式任务调度；Tensorflow, Pytorch深度学习库; Numpy, Pandas, Spicy等数值矩阵计算;基于Request, Selenium, beautifulsoup网络爬虫。<br>
 - 熟悉Linux系统命令, 计算机网络<br>
 - 掌握Ansible, Elastic Stack, Zabbix, gitlab, docker等自动化运维、日志监控等相关工具的使用和集群化部署<br>
 - 熟悉Openstack开发与部署，后端和前端的代码维护<br>
