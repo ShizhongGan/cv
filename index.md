@@ -71,7 +71,7 @@ _云计算研发工程师_<br>
 #### [分布式邮箱系统开发]() `2020.1 - 2020.6` 
 
 - 为缓解公司邮箱服务器压力、提高邮箱并发能力，避免服务器存储空间浪费。采用celery任务调度框架，Redis作为消息队列，MySQL作为数据库存储，基于django架构和SMTP协议完成新邮箱web客户端开发，最后采用docker部署在公司的云平台上，并添加多联系人文本识别、状态查询等功能，便于销售使用。
-- Environment：分布式+celery+Redis+MySQL+Docker+Boostrap
+- Environment：分布式+celery+Redis+MySQL+Docker+Bootstrap
 
 #### [SDN架构、VR算法与应用开发等自研项目]()
 
