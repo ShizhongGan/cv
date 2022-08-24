@@ -29,7 +29,6 @@ Supported arguments:
 ### **天津工业大学** `2016.9 -2019.4`
 
 - 信息与通信工程 工学硕士
-- 研究领域：仿生智能优化、高光谱图像解混、盲源信号分离
 
 ### **南洋理工大学[交流]** `2017.7 - 2018.12`
 
@@ -49,8 +48,8 @@ NTU, Singapore
 
 _云计算研发工程师_<br>
 - 主要负责公司云平台、云桌面的开发与维护，解决客户云资源使用过程中存在的问题<br>
-- 基于shell、ansible等实现云产品部署与运维的自动化<br>
-- 维护云
+- 基于shell、ansible等实现云产品部署与运维的自动化 <br>
+- 基于django框架负责公司相关业务的web开发 <br>
 
 #### [工单web应用开发]() `2022.4-2022.7`
 - 针对跨公司、多部门之间的项目合作和技术协同需要，基于django + bootstrap 完成可定制化表单、进度查询、协同记录的工单流程系统。
@@ -79,16 +78,6 @@ _云计算研发工程师_<br>
 
 - 为缓解公司邮箱服务器压力、提高邮箱并发能力，避免服务器存储空间浪费。采用celery任务调度框架，Redis作为消息队列，MySQL作为数据库存储，基于django架构和SMTP协议完成新邮箱web客户端开发，最后采用docker部署在公司的云平台上，并添加多联系人文本识别、状态查询等功能，便于销售使用。
 - Environment：分布式+celery+Redis+MySQL+Docker+Bootstrap
-
-#### [SDN架构、VR算法与应用开发等自研项目]()
-
-- Open vSwitch、Mininet、OpenDayLight等安装部署，学习相关概念和命令操作，完成几个云主机间流表创建删除、通信模拟测试等。
-- 根据VR眼镜3D视觉机制，利用opencv完成SIFT特征点匹配、RANSAC算法拼接、中心视图裁剪等算法，获得能够3D成像的左右眼视图。采用django开发算法的API接口，基于Flutter完成Android应用开发，实现手机拍摄照片和算法API调用，完成左右视图处理并在手机上显示，通过VR眼镜能够初步观赏到3D效果。
-- Environment： SDN+opencv+Flutter+django
-
-### **泰康集团** `2019.3 - 2019.4`
-_NLP语音算法实习生_<br>
-基于注意力机制的LSTM的保单审核评级分类算法demo 准确率94.5%
 
 ### **南洋理工大学计算机工程学院[交流]** `2017.7 - 2018.12`
 
@@ -121,9 +110,6 @@ _Research Assistant_<br>
 - 掌握Ansible, Elastic Stack, Zabbix, gitlab, docker等自动化运维、日志监控等相关工具的使用和集群化部署<br>
 - 熟悉Openstack开发与部署，后端和前端的代码维护<br>
 
-## Service
-
-IEEE ACCESS 邀请审稿人 `2019` <br>
 
 <!-- ### Footer
 
