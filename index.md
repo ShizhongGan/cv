@@ -25,7 +25,10 @@ Supported arguments:
 {% include cv-contact.html %}
 ## Summary
 
-有3年的openstack部署、运维和代码维护经验。擅长python以及其第三方库,熟悉django框架，能够独立完成web应用的开发和部署。熟悉docker、gitlab、ansible等运维工具的使用。有优化建模、统计分析的数学功底。
+- 有3年的openstack部署、运维和代码维护经验
+- 擅长python,熟悉django框架以及其他第三方库，能够独立完成web应用的开发部署
+- 熟悉docker、gitlab、ansible等运维工具的使用
+- 有优化建模、统计分析的数学功底
 
 ## Education
 
