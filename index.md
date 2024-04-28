@@ -96,7 +96,6 @@ NTU, Singapore
 
 陈雷, **甘士忠**,张立毅,王光艳. **基于样条插值与人工蜂群优化的非线性盲源分离算法**. _通信学报_(EI). 2017. [[PDF](http://www.infocomm-journal.com/txxb/CN/10.11959/j.issn.1000-436x.2017147)]
 
----
 
 ## Honors & Awards
 
