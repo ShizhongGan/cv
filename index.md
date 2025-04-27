@@ -29,6 +29,7 @@ Supported arguments:
 
 ### **爱立信（中国）通信有限公司** `2022.10 - `
 _运维开发工程师_<br>
+- 开发高性能分布式后端，分发Nexus管理Sftp资源
 - 主要维护保障爱立信私有云运行稳定，包括物理集群、虚拟机、K8s集群、Ceph存储等;
 - 配置、监控、维护物理集群，与IT运维部门处理硬件问题;
 - 维护Permethus, grafana, OnCall，zabbix，netdata等监控工具，添加更新监控对象;
