@@ -62,9 +62,9 @@ Lei Chen,Shizhong Gan,Liyi Zhang,Guangyan Wang. **Nonlinear blind source separat
 NTU, Singapore
 ```
 
-- _Research Assistant_  <>
+- _Research Assistant_  
 - process, analyze and characterize traffic data.
-- resarch on traffic modeling (LSTM) to solve problem and provide solution for transportation in Singapore.
+- resarch on traffic modeling (DP: LSTM) to solve problem and provide solution for transportation in Singapore.
 ### **Tianjin University of Commerce** `2012.9 - 2016.6`
 
 - B.S. in Mathematics and Applied Mathematics
