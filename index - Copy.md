@@ -23,14 +23,10 @@ Supported arguments:
 -->
 
 {% include cv-contact.html %}
+
+
+
 ## Experience
-### **Ericsson (China) Communications Co., Ltd.** `2022.10 - `
-_DevOps Engineer_ <br>
-- Provide maintenance and support for EWS cloud. Manage the full stack of physical server clusters (HPE/DELL), including configuration, deployment, monitoring, and power management. Handle KVM virtual machines, Kubernetes platform, and Ceph storage;
-- Monitoring systems: Maintain multi-layer monitoring tools like Prometheus, Grafana, Zabbix, and Netdata. Designed and deployed OnCall tools to reduce unnecessary alerts and improve monitoring efficiency;
-- Infrastructure as Code (IaC): Develop and maintain Ansible automation scripts for tasks such as cluster configuration, fault data collection, KVM migration, software deployment, and system optimization;
-- API-based automation development with DevOps tools: Customized automation for Spinnaker (multi-task execution), OnCall (alert classification and auto-handling), Reafish (server automation), and hardware tools like iLO/iDRAC for device configuration and data collection;
-- High-performance asynchronous task development in Python: For large-file downloads frequently used in CI/CD with Nexus, built an asynchronous task system using Redis (hot data caching) and Celery (distributed scheduling), improving download speed and task efficiency. Exposed services via FastAPI.
 
 ### **Beijing Sinnet Technology Co., Ltd.** `2019.6 -`
 
@@ -38,9 +34,42 @@ _Cloud Developer_<br>
 - Contribute to development of SINNET Cloud platform Services including architecture, configuration, deployment, and support.
 - Partner with Operation and Maintenance in developing new Auto-tools facing Cloud services and design maintain monitor platform.
 - Responsible for designing and developing the web services using python django framework and deployed using docker and ansible.
-- AWS cloud resource auto-processing tools: develop auto-processing tools for operating remote vpc data collection of illegal account of the AWS cloud platform.
-- CMCC Cloud platform Deployment and Implementation: Participated in the CMCC Cloud platform construction of the node in Guizhou province, responsible for ceph deployment, health check and processing, optimizing pg mapping to improve cluster with over 2000 osd provided by 106-126 physical machines; py-script to complete soft load balancing configuration, cloud platform environment automation detection and neutron network testing, etc. 
 
+### **TAIKANG INSURANCE GROUP INC.** `2019.3 - 2019.4`
+_NLP Algorithm Intern_<br>
+- optimize and develop algorithm for Insurance application validation based on LSTM and attention strategy.
+
+### **Nanyang Technological University** `2017.7 - 2018.12`
+
+_Research Assistant_<br>
+- process, analyze and characterize traffic data.
+- resarch on traffic modeling to solve problem and provide solution for transportation in Singapore.
+
+## Projects
+
+#### [Public IP retrieval platform service development]() `2022.1-2022.2`
+
+- The IP search web application developed based on django realizes multi-database processing based on pymysql, and completes the deployment through docker.
+- Environment: django+pymysql+mysql+docker
+ 
+#### [Application of cluster status and log monitoring and warning platform]() `2021.6-2021.12`
+
+- Deploying, managing and operating automated system administration monitoring and alert systems and respond to interruption of service events for running service and cluster using ELK and Zabbix.
+- Environment: ELK+Zabbix+MySQL+Ansible
+
+#### [AWS cloud resource auto-processing tools development]() `2021.3 - 2021.6`
+
+- Collaborating with police to develop auto-processing tools for operating remote vpc data collection of illegal account of the AWS cloud platform.
+- Environment: AWS boto3+paramiko+PyQT5
+  
+#### [CMCC Cloud platform Deployment and Implementation]() `2020.10 - 2020.12` 
+
+- Participated in the CMCC Cloud platform construction of the node in Guizhou province, responsible for ceph deployment, health check and processing, optimizing pg mapping to improve cluster with over 2000 osd provided by 106-126 physical machines; py-script to complete soft load balancing configuration, cloud platform environment automation detection and neutron network testing, etc.
+
+#### [Distributed mailbox system development]() `2020.1 - 2020.6` 
+
+- developed the distributed mailbox to relieve server pressure and improve system concurrency and support elastic storage based on celery framework, redis MQ and django web backend.
+- Environment: celery+Redis+MySQL+Docker+Bootstrap
 
 ## Publications
 
@@ -62,9 +91,8 @@ Lei Chen,Shizhong Gan,Liyi Zhang,Guangyan Wang. **Nonlinear blind source separat
 NTU, Singapore
 ```
 
-- _Research Assistant_  <>
-- process, analyze and characterize traffic data.
-- resarch on traffic modeling (LSTM) to solve problem and provide solution for transportation in Singapore.
+- _Research Assistant_  
+
 ### **Tianjin University of Commerce** `2012.9 - 2016.6`
 
 - B.S. in Mathematics and Applied Mathematics
@@ -78,14 +106,11 @@ Contemporary Undergraduate Mathematical Contest in Modeling, **Second National p
 ## Skills
 
 - Primary Languages: python, matlab<br>
-- System: Linux 
-- Hardware: HPE, Dell, and its redfish API
-- Cloud: Openstack, AWS, K8s.
 - Python Libraries: Django & Flask, Paramiko, Celery, Pytorch, Nampy, Selenium, Beautifulsoup matplotlib.
 - Database: SQLite3, MySql, Redis
 - System: Linux
-- Devops tools: Ansible, spinnaker, jenkins, Elastic Stack, Zabbix, git, docker, prometheus, oncall, grafana.
-
+- Operation: Ansible, Elastic Stack, Zabbix, gitlab, docker.
+- Cloud: Openstack, AWS.
 
 
 <!-- ### Footer
