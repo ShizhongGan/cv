@@ -29,7 +29,7 @@ Supported arguments:
 
 ### **爱立信（中国）通信有限公司** `2022.10 - `
 _SRE_<br>
-- 维护支持EWS cloud 稳定运行，全栈管理物理机集群(HPE/DELL，配置、部署、监控、能耗管理), KVM 虚拟机， K8s platform 以及Ceph存储, 支持全球用户，解决用户在VM、K8s、存储使用中存在的问题。
+- 维护支持爱立信EWS 云平台稳定运行，全栈管理物理机集群(HPE/DELL，配置、部署、监控、能耗管理), KVM 虚拟机， K8s platform 以及Ceph存储, 支持全球用户，解决用户在VM、K8s、Ceoh存储使用中存在的问题。
 - 监控体系：维护Prometheus + Grafana + Zabbix + Netdata 多维度监控, 部署设计OnCall工具，减少无效警告堆积，提高监控效率；
 - 基础设施即代码(IaC): 开发维护Ansible自动化脚本实现集群化配置管理，故障信息采集、KVM配置管理迁移、服务软件部署、优化补丁等；
 - 基于多种DevOps工具的API二次开发：Spinnaker触发多任务执行，OnCall堆积消息分类与自动化处理，Reafish物理机自动化控制、iLO/iDRRAC配置、硬件信息采集分析；
@@ -85,7 +85,7 @@ NTU, Singapore
 - 熟悉Linux系统命令<br>
 - 熟悉Ansible, spinnaker, jenkins, Elastic Stack, Zabbix, gitlab, docker等自动化工具的使用<br>
 - 熟悉HPE，DELL机器，以及其API<br>
-- -熟悉Kubernetes <br>
+- 熟悉Kubernetes <br>
 - 熟悉Openstack开发与部署，后端和前端的代码维护<br>
 
 <!-- ### Footer
