@@ -23,12 +23,28 @@ Supported arguments:
 -->
 
 {% include cv-contact.html %}
-## Summary
 
-- 有3年的openstack部署、运维和代码维护经验
-- 擅长python,熟悉django框架以及其他第三方库，能够独立完成web应用的开发部署
-- 熟悉docker、gitlab、ansible等运维工具的使用
-- 有优化建模、统计分析的数学功底
+
+## Experience
+
+### **爱立信（中国）通信有限公司** `2022.10 - `
+_SRE_<br>
+- 维护支持EWS cloud 稳定运行，全栈管理物理机集群(HPE/DELL，配置、部署、监控、能耗管理), KVM 虚拟机， K8s platform 以及Ceph存储, 支持全球用户，解决用户在VM、K8s、存储使用中存在的问题。
+- 监控体系：维护Prometheus + Grafana + Zabbix + Netdata 多维度监控, 部署设计OnCall工具，减少无效警告堆积，提高监控效率；
+- 基础设施即代码(IaC): 开发维护Ansible自动化脚本实现集群化配置管理，故障信息采集、KVM配置管理迁移、服务软件部署、优化补丁等；
+- 基于多种DevOps工具的API二次开发：Spinnaker触发多任务执行，OnCall堆积消息分类与自动化处理，Reafish物理机自动化控制、iLO/iDRRAC配置、硬件信息采集分析；
+- 高性能异步任务python开发：针对CI/CD高频依赖Nexus大文件下载场景，设计异步任务队列架构，通过Redis缓存热点资源+Celery分布式调度，提高下载吞吐与提升任务效率,通过FastAPI提供服务接口。
+
+### **北京光环新网科技股份有限公司** `2019.6 - 2022.10`
+
+_云计算研发工程师_<br>
+
+- 主要负责基于Opnstack架构的公司云平台的代码维护，解决系统漏扫存在的安全问题，及时响应工信部对目标云主机的调查；
+- 参与相关项目的部署实施，实现批量化文件配置、基础环境检查、私有云部署、日志监控工具部署等
+- 基于django框架完成后端开发任务，主要包括：云平台公网IP信息检索功能、结合celery模块优化公司邮箱系统群发功能
+- 针对AWS云平台违规、违法用户，协助司法、公安机关对指定云主机进行数据取证，基于AWS Boto3开发工具实现本地对云资源的远程操作，采用paramiko模块实现对云主机的远程控制，并基于PyQT5开发了一款自动化批处理云数据软件，通过简单的配置即可实现对云数据一键化处理；完成软著。
+- 参加苏州移动研发中心移动云贵州节点建设，主要负责ceph对象存储部署、健康检查与处理，优化pg映射提高集群打分（10个集群，每个集群106-126台服务器，其中6台作为MON节点, 大约2000个OSD）；py脚本完成软负载均衡配置；云平台环境自动化检测；neutron网络测试等。
+- 为缓解公司邮箱服务器压力、提高邮箱并发能力，避免服务器存储空间浪费。基于django架构和SMTP协议完成新邮箱web客户端开发，最后采用docker部署在公司的云平台上，并添加多联系人文本识别、状态查询等功能，便于销售使用。
 
 ## Education
 
@@ -42,55 +58,11 @@ Supported arguments:
 NTU, Singapore
 ```
 
-- _Research Assistant_  
+- _Research Assistant_  基于机器学习算法与深度模型的交通大数据
 
 ### **天津商业大学** `2012.9 - 2016.6`
 
 - 数学与应用数学 理学学士
-
-## Experience
-
-### **北京光环新网科技股份有限公司** `2019.6 -`
-
-_云计算研发工程师_<br>
-- 主要负责公司云平台、云桌面的开发与维护，解决客户云资源使用过程中存在的问题，实现云产品自动化部署、运维与监控，同时负责公司相关业务的web开发与相关技术栈的研发 <br>
-
-#### [工单web应用开发]() `2022.4-2022.7`
-- 针对跨公司、多部门之间的项目合作和技术协同需要，基于django + bootstrap 完成可定制化表单、进度查询、协同记录的工单流程系统。
-- Environment：django+bootstrap+mysql+docker
-
-#### [云平台公网IP检索web开发]() `2022.1-2022.2`
-
-- 基于django开发的IP搜索web应用，基于pymysql实现多数据库处理，并通过docker完成部署。
-- Environment：django+pymysql+mysql+docker
- 
-#### [集群状态与日志监控预警平台构建与应用]() `2021.6-2021.12`
-
-- 采用ELK搜集日志信息，通过Zabbix监控预警，并通过Ansible完成集群化安装部署，针对集群、云主机、私有云等进行定制化日志监控。
-- Environment：ELK+Zabbix+MySQL+Ansible
-
-#### [AWS云平台资源批量自动化取证]() `2021.3 - 2021.6`
-
-- 针对AWS云平台违规、违法用户，协助司法、公安机关对指定云主机进行数据取证，基于AWS Boto3开发工具实现本地对云资源的远程操作，采用paramiko模块实现对云主机的远程控制，并基于PyQT5开发了一款自动化批处理云数据软件，通过简单的配置即可实现对云数据一键化处理。完成软著。
-- Environment：AWS boto3+paramiko+PyQT5
-  
-#### [苏州移动研发中心移动云贵州节点部署实施]() `2020.10 - 2020.12` 
-
-- 参加苏州移动研发中心移动云贵州节点建设，主要负责ceph对象存储部署、健康检查与处理，优化pg映射提高集群打分（10个集群，每个集群106-126台服务器，其中6台作为MON节点, 大约2000个OSD）；py脚本完成软负载均衡配置；云平台环境自动化检测；neutron网络测试等。
-
-#### [分布式邮箱系统开发]() `2020.1 - 2020.6` 
-
-- 为缓解公司邮箱服务器压力、提高邮箱并发能力，避免服务器存储空间浪费。采用celery任务调度框架，Redis作为消息队列，MySQL作为数据库存储，基于django架构和SMTP协议完成新邮箱web客户端开发，最后采用docker部署在公司的云平台上，并添加多联系人文本识别、状态查询等功能，便于销售使用。
-- Environment：分布式+celery+Redis+MySQL+Docker+Bootstrap
-
-### **南洋理工大学计算机工程学院[交流]** `2017.7 - 2018.12`
-
-_Research Assistant_<br>
-- 海量数据处理，新加坡 Open-street-map 的百万条数据处理，企业的 GPS 海量数据处理，基于概率矩阵分解的缺失值插补；
-- 在 Linux 系统与 Docker 容器平台下，实现基于隐马尔可夫模型的 GPS 数据与地图匹配
-- 基于 LSTM 深度学习网络，完成交通流量预测分析；
-- 基于多种机器学习分类算法完成交通工具特征识别。
-- 基于 GAN 网络的数据生成、分布学习。
 
 ## Publications
 
@@ -99,6 +71,7 @@ _Research Assistant_<br>
 陈雷,  **甘士忠**,  孙茜. **基于回溯优化的非线性高光谱图像解混**.  _红外与激光工程_. 2017.  [[PDF](http://www.irla.cn/article/app/id/3126/cn/article/doi/10.3788/IRLA201746.0638001)]
 
 陈雷, **甘士忠**,张立毅,王光艳. **基于样条插值与人工蜂群优化的非线性盲源分离算法**. _通信学报_(EI). 2017. [[PDF](http://www.infocomm-journal.com/txxb/CN/10.11959/j.issn.1000-436x.2017147)]
+
 
 ## Honors & Awards
 
@@ -109,11 +82,11 @@ _Research Assistant_<br>
 ## Skills
 
 - 擅长语言：python， matlab<br>
-- 工作中主要使用Python：Django web开发；基于Paramiko模块的批量处理服务器资源；基于Celery分布式任务调度；Tensorflow, Pytorch深度学习库; Numpy, Pandas, Spicy等数值矩阵计算;基于Request, Selenium, beautifulsoup网络爬虫。<br>
-- 熟悉Linux系统命令, 计算机网络<br>
-- 掌握Ansible, Elastic Stack, Zabbix, gitlab, docker等自动化运维、日志监控等相关工具的使用和集群化部署<br>
+- 熟悉Linux系统命令<br>
+- 熟悉Ansible, spinnaker, jenkins, Elastic Stack, Zabbix, gitlab, docker等自动化工具的使用<br>
+- 熟悉HPE，DELL机器，以及其API<br>
+- -熟悉Kubernetes <br>
 - 熟悉Openstack开发与部署，后端和前端的代码维护<br>
-
 
 <!-- ### Footer
 
